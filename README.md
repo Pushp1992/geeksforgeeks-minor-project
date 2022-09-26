@@ -17,8 +17,9 @@
  1. Constructor
  2. this.seState
  3. event.preventDefault();
- 4. Destructuring objects
- 5. Creating new function and calling it accordingly.
+ 4. Destructuring objects and array
+ 5. fetching data from file
+ 6. Creating new function and calling it accordingly.
 
 
 ### Minor Project
