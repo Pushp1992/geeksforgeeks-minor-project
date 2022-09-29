@@ -57,7 +57,7 @@ class ResumeBuilder extends Component {
             <div className='parent-wrapper'>
                 <div className='candidate-info'>
                     <div className='candidate-image'>
-                        <img className='image-style' src={candidateImg} alt="candidateImg" />
+                        <img className='candidate-image-style' src={candidateImg} alt="candidateImg" />
                     </div>
                     <div className='candidate-details'>
                         <div className='role'>
@@ -86,7 +86,9 @@ class ResumeBuilder extends Component {
                         </div>
                     </div>
                 </div>
-
+                {/* <div className="solid"> */}
+                    <hr className="solid" />
+                {/* </div> */}
                 <div className='candidate-intro'>
                     <div className='candidate-punchline'>
                         <div className='flip-card-inner'>

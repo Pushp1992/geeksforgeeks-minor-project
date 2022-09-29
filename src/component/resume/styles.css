@@ -20,8 +20,18 @@
     align-items: center;
 }
 
+.candidate-details:hover {
+    box-shadow: 0px 8px 16px 2px rgba(10, 223, 128, 0.912);
+}
+
 .candidate-image {
     background-color: whitesmoke;
+    border-radius: 50%;
+}
+
+.candidate-image-style {
+    width: 110px;
+    height: 110px;
 }
 
 .candidate-details {
@@ -29,6 +39,15 @@
     flex-direction: column;
     align-items: flex-start;
     margin-left: 2rem;
+    font-size: x-large;
+    font-weight: 500;
+    color: #bbb;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.solid {
+    margin: 1rem 25rem;
+    border-top: 2px solid brown;
 }
 
 /* Row-2 */
@@ -98,10 +117,13 @@
 }
 
 .candidate-skillset {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
+    padding-top: 1rem;
     width: 30%;
     /* margin-right: 3rem; */
+}
+
+.candidate-skillset:hover {
+    box-shadow: 0px 16px 64px 20px rgba(38, 3, 132, 0.912);
 }
 
 .skillset-list {
@@ -110,6 +132,10 @@
     justify-content: space-around;
     padding-bottom: 1rem;
     align-items: center;
+}
+
+.skillset-list:hover {
+    box-shadow: 0 16px 32px 0 rgba(7, 234, 48, 0.835);
 }
 
 .skillset-name {
@@ -125,26 +151,21 @@
     align-items: flex-end;
     overflow-wrap: break-word;
     width: 50%;
-
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    width: 50%; */
 }
 
 .employer-card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     margin: 1rem;
-    ;
     /* width: 50%; */
 }
 
 .employer-card:hover {
-    box-shadow: 0 16px 32px 0 rgba(12, 214, 89, 0.2);
+    box-shadow: 0 16px 32px 0 rgba(204, 238, 6, 0.9);
 }
 
 .card-heading {
-    background-color: wheat;
+    background-color: black;
     min-height: 4rem;
     display: flex;
     flex-direction: row;
@@ -154,10 +175,7 @@
 }
 
 .card-body {
-    /* display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 2rem; */
+    background: rgb(0, 128, 128, 0.4);
 }
 
 ul {
@@ -169,22 +187,15 @@ ul {
     text-align: -webkit-left;
     list-style-type: square;
     list-style-position: inside;
-    /* overflow-wrap: break-word; */
-    /* list-style: square inside url("sqpurple.gif"); */
 }
 
 li {
     font-family: monospace;
-    font-size: larger;
+    font-size: large;
     padding: 1rem;
 }
 
 /* other styling */
-
-.image-style {
-    width: 100px;
-    height: 100px
-}
 
 .edu-image-style {
     width: inherit;
