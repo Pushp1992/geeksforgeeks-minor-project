@@ -11,18 +11,20 @@ export const resumeData = {
     },
     punchLine: '”Self-Motivated Self-Learned Fast Learner Goal-Oriented Inquisitive Growth Mindset High Performant Highly”',
     educationalInfo: {
+        degree: 'Bachelor of Engineering',
+        course: 'Computer Science',
         collegeName: 'Xyz college',
         universityName: 'abc university',
         state: 'MP',
         city: 'Bhopal',
-        academicYear: '2011-2015'
+        courseDuration: '2011-2015'
     },
     workExperience: [
         {
-            Company: 'New Yorker',
-            companyImage: '',
+            employerName: 'New Yorker',
+            employerLogo: '',
             joinedOn: 'Oct 2020',
-            leftOn: 'present',
+            leftOn: 'Present',
             website: 'https://www.newyorker.com/',
             accomplishments: [
                 "Implemented various consumer Growth initiatives on The New Yorker website, which is under media and publishing domain in the US.",
@@ -34,8 +36,8 @@ export const resumeData = {
             ]
         },
         {
-            Company: 'Swiggy',
-            companyImage: '',
+            employerName: 'Swiggy',
+            employerLogo: '',
             joinedOn: 'May 2018',
             leftOn: 'Oct 2020',
             website: 'https://www.swiggy.com/',
@@ -46,12 +48,61 @@ export const resumeData = {
                 "Built a product from scratch for the Marketing Team, which will power various coupon creation, campaigns, offers on Swiggy meals using React.js as the main tech stack.",
                 "Helped swiggy’s third-party contract company to onboard the product to swiggy premises. The product name was: Polygon Dashboard."
             ]
+        },
+        {
+            employerName: 'CES LTD',
+            employerLogo: '',
+            joinedOn: 'Jan 2018',
+            leftOn: 'May 2018',
+            website: '',
+            accomplishments: [
+                "Worked on Angular.js, Angular material design, AngularJS Bootstrap for creating banking applications for the company’s internal use.",
+                "Winner of ABCD award."
+            ]
+        },
+        {
+            employerName: 'Syntel',
+            employerLogo: '',
+            joinedOn: 'Sept 2015',
+            leftOn: 'Jan 2018',
+            website: '',
+            accomplishments: [
+                "Worked on various internal products of FedEx.",
+                "Worked on the enhancement of some of the internal FedEx applications which were used for logistics purposes.",
+                "Well-known for fast learning capability.",
+                "Winner of Highly Productive Employee of the year."
+            ]
         }
     ],
     skillSet: [
-        {'javascript': '85%'},
-        {'html': '90%'},
-        {'css': '95%'}
+        { 'Typescript': '60%' },
+        { 'React.js': '90%' },
+        { 'Node.js': '70%' },
+        { 'Next.js': '80%' },
+        { 'Firebase': '75%' },
+        { 'MongoDB': '60%' },
+        { 'OAuth': '60%' },
+        { 'HTML': '95%' },
+        { 'CSS': '85%' },
+        { 'GraphQL': '60%' },
+        { 'Docker': '40%' },
+        { 'Jenkins': '80%' },
+        { 'Github': '90%' },
+        { 'Bitbucket': '80%' },
+        { 'Jest': '70%' },
+        { 'Enzyme': '70%' },
+        { 'Cypress': '65%' },
+        { 'TDD': '70%' },
+        { 'Webpack': '70%' },
+        { 'Applitool': '80%' },
+        { 'Danger.js': '70%' },
+        { 'Departure': '85%' },
+        { 'StoryBook': '70%' },
+        { 'Express': '75%' },
+        { 'Azure (cognitive)': '65%' },
+        { 'Figma': '70%' },
+        { 'Github Action': '90%' },
+        { 'A/B Testing': '90%' }
     ]
 };
 

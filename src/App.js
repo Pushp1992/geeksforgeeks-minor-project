@@ -1,10 +1,10 @@
 import './App.css';
-
+import ResumeBuilder from '../src/component/resume/resume';
 
 function App() {
   return (
     <div className="App">
-     <h3 style={{color: 'red'}}>Please try to render various class component on the Web page in order to complete your assignment</h3>
+     <ResumeBuilder/>
     </div>
   );
 }
