@@ -1,10 +1,12 @@
 import './App.css';
-import ResumeBuilder from '../src/component/resume/resume';
+import FunctionalComponent from './component/practice/functional-component';
+import BootstrapComponent from './component/bootstrap';
+// import ResumeBuilder from '../src/component/resume/resume';
 
 function App() {
   return (
     <div className="App">
-     <ResumeBuilder/>
+      <BootstrapComponent />
     </div>
   );
 }

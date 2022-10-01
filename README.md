@@ -10,6 +10,13 @@
 8. How DOM and Virtual DOM works
 9. Advantage of using React
 
+10. Functional Component
+11. Hooks
+12. Conditional rendering
+13. Content validation
+14. Higher Order Component (HOC)
+14. Building App using Bootstrp or React Material UI
+
 ### Live demo
 
  Creating small student Form incorporating all class component features. Example
@@ -19,7 +26,12 @@
  3. event.preventDefault();
  4. Destructuring objects and array
  5. fetching data from file
- 6. Creating new function and calling it accordingly.
+ 6. Creating new function on html element and calling it accordingly.
+
+ 7. Using Hooks
+ 8. Rendering component
+ 9. Content validation
+ 10. Installing and using Bootstrap or Material UI.
 
 
 ### Minor Project
