@@ -15,7 +15,15 @@
 12. Conditional rendering
 13. Content validation
 14. Higher Order Component (HOC)
-14. Building App using Bootstrp or React Material UI
+14. Building App using Bootstrap or React Material UI
+
+15. Adding multiple routes to the react application.
+16. Making API calls using AXIOS.
+17. Creating a service calls (basically writing a function to make API calls)
+18. Adding extra Bootstrap style (RWD / Mobile First design)
+19. Migrate Class Component to Functional Component
+
+
 
 ### Live demo
 

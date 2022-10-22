@@ -1,12 +1,14 @@
 import './App.css';
-import FunctionalComponent from './component/practice/functional-component';
-import BootstrapComponent from './component/bootstrap';
-// import ResumeBuilder from '../src/component/resume/resume';
+import { BrowserRouter as Router } from 'react-router-dom';
+
+import RouteList from './routes';
 
 function App() {
   return (
     <div className="App">
-      <BootstrapComponent />
+      <Router>
+        <RouteList />
+      </Router>
     </div>
   );
 }
