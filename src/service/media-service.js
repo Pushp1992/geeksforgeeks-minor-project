@@ -3,9 +3,16 @@
 import axios from 'axios';
 
 const mediaService = {
-
     async fetchImageList() {
-        const image_public_url = "https://api.giphy.com/v1/gifs/search?api_key=5pz3ijoel9TP8PVJPb0SDND5kdXihPyc&q=cheeseburgers";
+
+        const API_KEY = "5pz3ijoel9TP8PVJPb0SDND5kdXihPyc";
+        const SEARCH_TERM = "cheeseburgers"
+
+        const BASE_URL = "https://api.giphy.com";
+        const END_POINT = "v1/gifs";
+
+        const image_public_url = `${BASE_URL}/${END_POINT}/search?api_key=${API_KEY}&q=${SEARCH_TERM}`;
+
         const imageURL = window.encodeURI(image_public_url);
 
         return await axios({
